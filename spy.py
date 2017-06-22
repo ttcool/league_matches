@@ -16,4 +16,4 @@ def download(url, user_agent='wswp', num_retries=2):
                 return download(url, user_agent, num_retries-1)
     return html
 
-print download('http://www.blingstorm.com.cn')
+print download('http://www.sina.com.cn')
